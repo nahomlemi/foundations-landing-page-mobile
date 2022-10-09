@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,200&display=swap');
+
+*{
+    --dark-blue: #1F2937;
+    --light-blue: #3882F6;
+    --quote-background:#E5E7EB;
+    font-family:Montserrat;
+}
+
+.background{
+    color:white;
+    background-color:var(--light-blue);
+    width:100vw;
+    height:80vh;
+}
+.header, .top-center{
+    text-align:center;
+    color:white;
+    background-color:var(--dark-blue);
+    padding-bottom: 5vh;
+}
+.header{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    
+}
+.header-logo{
+    font-size:2rem;
+}
+.link, .top-center{
+    display:flex;
+    flex-direction:column;
+}
+.top-center{
+    border-bottom-left-radius: 10vw;
+    border-bottom-right-radius: 10vw;
+
+}
+.text-1{
+    display:flex;
+    flex-direction:column;
+
+}
+.s1, .s2, .s3{
+    font-weight:400;
+}
+.top-paragrahp{
+    text-align: center;
+    margin:auto 1vh;
+}
+.top-button{
+    color:white;
+    background-color:var(--light-blue);
+    width:30vw;
+    height:4vh;
+    margin:auto 34vw;
+    border-radius:2vw;
+    font-weight:700;
+}
+.img-1{
+    display:none;
+}
+
+/*////////////////////////////////////////////////////////////*/
+
+.botton-center{
+    color:var(--dark-blue);
+
+}
+
+.box, .about-me, .my-skills, .my-porfolio, .contact-me{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+
+}
+.h2-text{
+    text-align: center;
+}
+.about-me-img, .my-skills-img, .my-porfolio-img, .contact-me-img{
+    width:1px;
+    height:1px;
+    padding:15vw;
+    border:solid var(--dark-blue);
+    border-radius:5vw;
+}
+.sp{
+    width:50vw;
+    text-align:center;
+}
+.footer{
+    color: var(--dark-blue);
+    padding-top:4vh;
+    background-color:var(--quote-background);
+    width:100%;
+    height:50vh;
+    margin-bottom: 20vh;
+    border-radius:5vw;
+}
+.quote{
+    font-size:1.9rem;
+    text-align:center;
+    margin:2vw;
+    padding-bottom: 2vh;
+    font-style:italic;
+}
+.name{
+    margin-left:40vw;
+    font-weight:700;
+}
+/*/////////////////////////////////////////////////////////////*/
+
+.ad{
+    color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color:var(--light-blue);
+    border-top-left-radius: 4vw ;
+    border-top-right-radius: 4vw ;
+}
+.ad-header{
+    font-size:1.4rem;
+}
+.ad-paragraph{
+    margin:1vh 1vw;
+}
+.ad-text, .ad-paragraph{
+    text-align: center;
+}
+.ad-button{
+    margin:1vh 10vw;
+    color:white;
+    padding:1vh 8vw;
+    background-color:var(--light-blue);
+    border-radius: 2vw;
+    border:1vw solid white;
+}
+/*/////////////////////////////////////////////////////////////*/
+.bottom{
+    text-align: center;
+    color:white;
+    background-color:var(--dark-blue);
+    height:4vh;
+    padding-top:1vh;
+}
